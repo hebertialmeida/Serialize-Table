@@ -72,7 +72,7 @@ h4. PHP AJAX
 
 <pre>
 <code>
-<?php
+<?
 	$json = $_REQUEST["juice"];
 	$obj = json_decode($json);
 ?>	
