@@ -3,8 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>jQuery SerializeTable</title>
-	<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>-->
-	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.serializetable.js"></script>
 	<link rel="stylesheet" href="./css/style.css" />
 	<script type="text/javascript">
