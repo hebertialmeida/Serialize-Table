@@ -88,6 +88,6 @@ h3. HTML
 <input type="text" value="<?=$obj[0]->name;?>" />
 
 <!-- Sample 2 -->
-<h1><?=$obj[0]->color;?></h1>
+<p><?=$obj[0]->color;?></p>
 </code>
 </pre>
