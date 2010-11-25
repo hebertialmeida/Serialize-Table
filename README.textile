@@ -40,3 +40,54 @@ $('#your_table').serializeTable({
 });
 </code>
 </pre>
+
+h3. Table
+
+|_. Name |_. Color
+| Heberti | Green
+| Luis | Blue
+
+<pre>
+<code>
+<table>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th>Color</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td rel="name">Heberti</td>
+			<td rel="color">Blue</td>
+		</tr>
+		<tr>
+			<td rel="name">Luis</td>
+			<td rel="color">Green</td>
+		</tr>
+	</tbody>
+</table>
+</code>
+</pre>
+
+h3. PHP
+
+<pre>
+<code>
+<?php
+	$json = $_REQUEST[\"juice\"];
+	$obj = json_decode($json);
+?>	
+</code>
+</pre>
+
+h3. HTML
+<pre>
+<code>
+<!-- Sample 1 -->
+<input type=\"text\" value=\"<?=$obj[0]->name;?>\" />
+
+<!-- Sample 2 -->
+<h1><?=$obj[0]->color;?></h1>
+</code>
+</pre>

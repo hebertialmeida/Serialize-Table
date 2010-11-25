@@ -7,19 +7,19 @@
 	<ul>
 		<li>
 			<label for="">Name:</label>
-			<input type="text" name="" value="<?=$obj[0]->nome;?>" id="" />
+			<input type="text" value="<?=$obj[0]->nome;?>" />
 		</li>
 		<li>
 			<label for="">Serie:</label>
-			<input type="text" name="" value="<?=$obj[0]->serie;?>" id="" />
+			<input type="text" value="<?=$obj[0]->serie;?>" />
 		</li>
 		<li>
 			<label for="">Escola:</label>
-			<input type="text" name="" value="<?=$obj[0]->escola;?>" id="" />
+			<input type="text" value="<?=$obj[0]->escola;?>" />
 		</li>
 		<li>
 			<label for="">Turma:</label>
-			<input type="text" name="" value="<?=$obj[0]->turma;?>" id="" /><br />
+			<input type="text" value="<?=$obj[0]->turma;?>" /><br />
 		</li>
 	</ul>
 </form>

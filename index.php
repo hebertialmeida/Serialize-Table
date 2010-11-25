@@ -29,36 +29,38 @@
 				<th>Escola</th>
 			</tr>
 		</thead>
-		<tr>
-			<td rel="nome">Heberti Almeida</td>
-			<td rel="serie">2° "ano"</td>
-			<td rel="turma">Sala B</td>
-			<td rel="escola">Instituto Adventista Paranaense</td>
-		</tr>
-		<tr>
-			<td rel="nome">Isaque's Siqueira</td>
-			<td rel="serie">3° ano</td>
-			<td rel="turma">Sala G</td>
-			<td rel="escola">Colégio Adventista de Tatuí</td>
-		</tr>
-		<tr>
-			<td rel="nome">Luis, Silva</td>
-			<td rel="serie">8° ano</td>
-			<td rel="turma">Sala E</td>
-			<td rel="escola">Colégio Adventista de Maringá</td>
-		</tr>
-		<tr>
-			<td rel="nome">Rafael Kowal</td>
-			<td rel="serie">1° ano</td>
-			<td rel="turma">Sala D</td>
-			<td rel="escola">Colégio Adventista de Tatuapé</td>
-		</tr>
-		<tr>
-			<td rel="nome">Heberti Almeida</td>
-			<td rel="serie">5° ano</td>
-			<td rel="turma">Sala A</td>
-			<td rel="escola">Colégio Adventista de Paranaguá</td>
-		</tr>
+		<tbody>
+			<tr>
+				<td rel="nome">Heberti Almeida</td>
+				<td rel="serie">2° "ano"</td>
+				<td rel="turma">Sala B</td>
+				<td rel="escola">Instituto Adventista Paranaense</td>
+			</tr>
+			<tr>
+				<td rel="nome">Isaque's Siqueira</td>
+				<td rel="serie">3° ano</td>
+				<td rel="turma">Sala G</td>
+				<td rel="escola">Colégio Adventista de Tatuí</td>
+			</tr>
+			<tr>
+				<td rel="nome">Luis, Silva</td>
+				<td rel="serie">8° ano</td>
+				<td rel="turma">Sala E</td>
+				<td rel="escola">Colégio Adventista de Maringá</td>
+			</tr>
+			<tr>
+				<td rel="nome">Rafael Kowal</td>
+				<td rel="serie">1° ano</td>
+				<td rel="turma">Sala D</td>
+				<td rel="escola">Colégio Adventista de Tatuapé</td>
+			</tr>
+			<tr>
+				<td rel="nome">Heberti Almeida</td>
+				<td rel="serie">5° ano</td>
+				<td rel="turma">Sala A</td>
+				<td rel="escola">Colégio Adventista de Paranaguá</td>
+			</tr>
+		</tbody>
 	</table>
 	<span id="return"></span>
 </body>
