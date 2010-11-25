@@ -75,7 +75,7 @@ h3. PHP
 <pre>
 <code>
 <?php
-	$json = $_REQUEST[\"juice\"];
+	$json = $_REQUEST["juice"];
 	$obj = json_decode($json);
 ?>	
 </code>
@@ -85,7 +85,7 @@ h3. HTML
 <pre>
 <code>
 <!-- Sample 1 -->
-<input type=\"text\" value=\"<?=$obj[0]->name;?>\" />
+<input type="text" value="<?=$obj[0]->name;?>" />
 
 <!-- Sample 2 -->
 <h1><?=$obj[0]->color;?></h1>
