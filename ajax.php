@@ -2,11 +2,11 @@
 	$json = $_REQUEST["nome"];
 	$obj = json_decode($json);
 ?>
-<h1>Campos populados da tabela</h1>
+<h1>Fields of Table</h1>
 <form action="">
 	<ul>
 		<li>
-			<label for="">Nome:</label>
+			<label for="">Name:</label>
 			<input type="text" name="" value="<?=$obj[0]->nome;?>" id="" />
 		</li>
 		<li>

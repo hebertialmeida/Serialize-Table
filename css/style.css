@@ -1,8 +1,14 @@
+* {
+	margin:0;
+	padding:0;
+}
 body {
 	font:12px/normal arial, verdana;
+	background:url(../images/bg.gif);
 }
 table {
-	border:1px solid #C3C5C7;
+	border:1px solid #999;
+	background:white;
 }
 thead tr {
 	background:#e6e6e6;
@@ -37,4 +43,14 @@ label {
 	display:inline-block;
 	width:60px;
 	text-align:right;
+	color:#DDD;
+}
+input {
+	padding:3px 5px;
+	font-size:15px;
+	border:1px solid #DDD
+}
+h1 {
+	color:#DDD;
+	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.9);
 }

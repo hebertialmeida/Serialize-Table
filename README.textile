@@ -1,0 +1,42 @@
+h1. jQuery SerializeTable documentation
+
+h2. What it does
+
+jQuery SerializeTable is a jquery plugin that get data from a table when clicked. And make into JSON all data, and can be read by PHP and return to fields or to any page by AJAX.
+
+h2. How to use it
+
+<pre>
+<code>
+<script src="jquery.js"></script>
+<script src="jquery.serializetable.js"></script>
+<script>
+	$(document).ready(function() {
+		$('#your_table').serializeTable({
+			'file': 'path/to/file.php',
+			'params': 'parameter_name',
+			'data': '#element'
+		});
+	});
+</script>
+</code>
+</pre>
+
+h2. Options
+
+* *file*: Name of AJAX file. Defaults to @empty@.
+* *params*: Name of parameter to request. Defaults to @params@.
+* *data*: Element, ID or Class to return AJAX data. Defaults to @#content@.
+* *attr*: Attribute that contains the field name. Defaults to @rel@.
+
+h2. Example
+
+<pre>
+<code>
+	$('#your_table').serializeTable({
+		'file': 'ajax.php',
+		'params': 'juice',
+		'data': '#return'
+	});
+</code>
+</pre>

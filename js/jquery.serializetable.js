@@ -9,7 +9,6 @@
 (function( $ ){
 	$.fn.serializeTable = function(opt) {
 		var defaults = {
-			sep: ",",
 			file: "",
 			params: "params",
 			data: "#content",
@@ -22,7 +21,7 @@
 			var arr = "";
 			$("td", this).each(function(id) {
 				name = $(".clicked td").eq(id).attr(opt.attr);
-				str += '"'+name+'":"'+($(this).text()+'').replace(/"/g, '%26quot%3B')+'"'+opt.sep;
+				str += '"'+name+'":"'+($(this).text()+'').replace(/"/g, '%26quot%3B')+'",';
 			});
 			$(this).removeClass("clicked");
 			if(str) {			
