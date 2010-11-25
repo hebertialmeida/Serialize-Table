@@ -32,6 +32,7 @@ h2. Options
 h2. Complete Example
 
 h4. Plugin
+
 <pre>
 <code>
 $('#your_table').serializeTable({
