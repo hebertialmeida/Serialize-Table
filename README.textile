@@ -2,7 +2,7 @@ h1. jQuery SerializeTable documentation
 
 h2. What it does
 
-jQuery SerializeTable is a jquery plugin that get data from a table when clicked. And make into JSON all data, and can be read by PHP and return to fields or to any page by AJAX.
+jQuery SerializeTable is a jquery plugin that get data from a table when clicked. And make into JSON all data, and can be read by PHP and return to fields or to any page by AJAX. "View example":http://hebertialmeida.com/plugins/serialize-table/
 
 h2. How to use it
 
