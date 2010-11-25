@@ -31,6 +31,7 @@ h2. Options
 
 h2. Complete Example
 
+h4. Plugin
 <pre>
 <code>
 $('#your_table').serializeTable({
@@ -77,7 +78,7 @@ h4. PHP
 </code>
 </pre>
 
-h3. AJAX
+h4. AJAX
 
 <pre>
 <code>
