@@ -82,7 +82,7 @@ h3. AJAX
 <pre>
 <code>
 <!-- Sample 1 -->
-<input type="text" value="<?=$obj[0]->name;?>" /\>
-<input type="text" value="<?=$obj[0]->color;?>" /\>
+<input type="text" value="<?=$obj[0]->name;?>" />
+<input type="text" value="<?=$obj[0]->color;?>" />
 </code>
 </pre>
