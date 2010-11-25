@@ -11,13 +11,13 @@ h2. How to use it
 <script src="jquery.js"></script>
 <script src="jquery.serializetable.js"></script>
 <script>
-	$(document).ready(function() {
-		$('#your_table').serializeTable({
-			'file': 'path/to/file.php',
-			'params': 'parameter_name',
-			'data': '#element'
-		});
+$(document).ready(function() {
+	$('#your_table').serializeTable({
+		'file': 'path/to/file.php',
+		'params': 'parameter_name',
+		'data': '#element'
 	});
+});
 </script>
 </code>
 </pre>
@@ -33,10 +33,10 @@ h2. Example
 
 <pre>
 <code>
-	$('#your_table').serializeTable({
-		'file': 'ajax.php',
-		'params': 'juice',
-		'data': '#return'
-	});
+$('#your_table').serializeTable({
+	'file': 'ajax.php',
+	'params': 'juice',
+	'data': '#return'
+});
 </code>
 </pre>
