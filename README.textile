@@ -28,6 +28,8 @@ h2. Options
 * *params*: Name of parameter to request. Defaults to @params@.
 * *data*: Element, ID or Class to return AJAX data. Defaults to @#content@.
 * *attr*: Attribute that contains the field name. Defaults to @rel@.
+* *loading_text*: Text displayed on loading. Defaults to @empty@.
+* *loading_class*: Class to personalize loading. Defaults to @serializetable-ldg@.
 
 h2. Complete Example
 
@@ -37,10 +39,10 @@ h4. Plugin
 <code>
 <script>
 $(document).ready(function() {
-	$('#your_table').serializeTable({
-		'file': 'ajax.php',
-		'params': 'juice',
-		'data': '#return'
+	$("#my_table").serializeTable({
+		"file": "ajax.php",
+		"params": "juice",
+		"data": "#return"
 	});
 });
 </script>
@@ -76,13 +78,13 @@ h4. PHP AJAX
 
 <pre>
 <code>
-<?
+<?php
 	$json = $_REQUEST["juice"];
 	$obj = json_decode($json);
 ?>	
 
 <!-- Sample -->
-<input type="text" value="<?=$obj[0]->name;?>" />
-<input type="text" value="<?=$obj[0]->color;?>" />
+<input type="text" value="<?php echo $obj[0]->name?>" />
+<input type="text" value="<?php echo $obj[0]->color?>" />
 </code>
 </pre>

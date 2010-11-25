@@ -1,9 +1,9 @@
 /**
-* @description serializeTable get data of table
+* @description SerializeTable
 * @author Heberti Almeida
 * @email hebertialmeida@gmail.com
-* @version 1.0
-* @date 2010-11-24
+* @github https://github.com/hebertialmeida/Serialize-Table
+* @version 1.0 --> 2010-11-25
 * @license GNU LGPL (http://www.gnu.org/licenses/lgpl.html)
 */
 (function( $ ){
@@ -12,7 +12,9 @@
 			file: "",
 			params: "params",
 			data: "#content",
-			attr: "rel"
+			attr: "rel",
+			loading_text: "",
+			loading_class: "serializetable-ldg"
 		};
 		opt = $.extend(defaults, opt);					
 		$("tr", this).live("click", function(){	
@@ -21,16 +23,19 @@
 			var arr = "";
 			$("td", this).each(function(id) {
 				name = $(".clicked td").eq(id).attr(opt.attr);
-				str += '"'+name+'":"'+($(this).text()+'').replace(/"/g, '%26quot%3B')+'",';
+				str += '"'+name+'":"'+($(this).text()+'').replace(/"/g, '%26quot%3B').replace(/&/g, '%26').replace(/#/g, '%23')+'",';
 			});
 			$(this).removeClass("clicked");
-			if(str) {			
-				// Remove last caracterer
+			if(str) {		
 				str = "[{"+str.replace(/(\s+)?.$/, "")+"}]";
-				// Return ajax
+				
 				$.ajax({
 					url: opt.file+'?'+opt.params+'='+str,
+					beforeSend:  function() {
+						if (opt.loading_text != "") $(opt.data).html('<span class="'+opt.loading_class+'">'+opt.loading_text+'</span>');
+					},
 					success: function(data) {
+						$(opt.data).find(opt.loading_class).remove();
 						$(opt.data).html(data);
 					}
 				});

@@ -1,25 +1,32 @@
-<?
-	$json = $_REQUEST["nome"];
+<?php
+	$json = $_REQUEST["registration"];
 	$obj = json_decode($json);
 ?>
 <h1>Fields of Table</h1>
+<p></p>
+<code>
+	JSON
+	<?php echo $json ?>
+</code>
+<hr />
+<code><?php print_r($obj) ?></code>
 <form action="">
-	<ul>
+	<ul id="form">
 		<li>
 			<label for="">Name:</label>
-			<input type="text" value="<?=$obj[0]->nome;?>" />
+			<input type="text" value="<?php echo $obj[0]->name?>" />
 		</li>
 		<li>
-			<label for="">Serie:</label>
-			<input type="text" value="<?=$obj[0]->serie;?>" />
+			<label for="">University:</label>
+			<input type="text" value="<?php echo $obj[0]->university?>" />
 		</li>
 		<li>
-			<label for="">Escola:</label>
-			<input type="text" value="<?=$obj[0]->escola;?>" />
+			<label for="">Post Code:</label>
+			<input type="text" value="<?php echo $obj[0]->post_code?>" />
 		</li>
 		<li>
-			<label for="">Turma:</label>
-			<input type="text" value="<?=$obj[0]->turma;?>" /><br />
+			<label for="">Region:</label>
+			<input type="text" value="<?php echo $obj[0]->region?>" /><br />
 		</li>
 	</ul>
 </form>

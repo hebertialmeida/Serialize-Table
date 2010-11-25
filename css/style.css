@@ -6,6 +6,11 @@ body {
 	font:12px/normal arial, verdana;
 	background:url(../images/bg.gif);
 }
+#main {
+	margin:0 auto;
+	padding:20px 0;
+	width:960px;
+}
 table {
 	border:1px solid #999;
 	background:white;
@@ -26,23 +31,29 @@ tr:hover {
 	background:#f0f0f0;
 	cursor:pointer;
 }
-td {
-	padding:8px;
-}
+td {padding:8px;}
 table {
 	border-collapse:collapse;
 	border-spacing:0;
 }
-
-li {
+ul#nav li {
+	display:inline-block;
+	padding:10px 10px 10px 0;
+}
+ul#nav a {
+	color:#d2eeff;
+	text-decoration:none;
+	font:bold 13px/normal arial,verdana;
+}
+ul#nav a:hover {text-decoration:underline;}
+ul#form li {
 	list-style:none;
 	padding:3px;
 	margin:5px 0;
 }
 label {
-	display:inline-block;
-	width:60px;
-	text-align:right;
+	display:block;
+	width:100px;
 	color:#DDD;
 }
 input {
@@ -53,4 +64,21 @@ input {
 h1 {
 	color:#DDD;
 	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.9);
+	margin:10px 0 0 0;
+}
+p {
+	padding:5px 0 10px 0;
+	color:white;
+}
+code {
+	border:1px solid #999;
+	padding:20px;
+	background:white;
+	display:inline-block;
+	font-size:11px;
+}
+hr {
+	boder:1px solid black;
+	margin:20px;
+	margin:20px;
 }
