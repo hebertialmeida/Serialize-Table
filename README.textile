@@ -35,11 +35,15 @@ h4. Plugin
 
 <pre>
 <code>
-$('#your_table').serializeTable({
-	'file': 'ajax.php',
-	'params': 'juice',
-	'data': '#return'
+<script>
+$(document).ready(function() {
+	$('#your_table').serializeTable({
+		'file': 'ajax.php',
+		'params': 'juice',
+		'data': '#return'
+	});
 });
+</script>
 </code>
 </pre>
 
