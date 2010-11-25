@@ -68,7 +68,7 @@ h4. Table
 </code>
 </pre>
 
-h4. PHP
+h4. PHP AJAX
 
 <pre>
 <code>
@@ -76,14 +76,8 @@ h4. PHP
 	$json = $_REQUEST["juice"];
 	$obj = json_decode($json);
 ?>	
-</code>
-</pre>
 
-h4. AJAX
-
-<pre>
-<code>
-<!-- Sample 1 -->
+<!-- Sample -->
 <input type="text" value="<?=$obj[0]->name;?>" />
 <input type="text" value="<?=$obj[0]->color;?>" />
 </code>
