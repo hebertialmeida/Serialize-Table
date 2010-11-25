@@ -29,8 +29,9 @@ h2. Options
 * *data*: Element, ID or Class to return AJAX data. Defaults to @#content@.
 * *attr*: Attribute that contains the field name. Defaults to @rel@.
 
-h2. Example
+h2. Complete Example
 
+h3. Plugin Usage
 <pre>
 <code>
 $('#your_table').serializeTable({
@@ -42,11 +43,6 @@ $('#your_table').serializeTable({
 </pre>
 
 h3. Table
-
-|_. Name |_. Color
-| Heberti | Green
-| Luis | Blue
-
 <pre>
 <code>
 <table>
@@ -71,7 +67,6 @@ h3. Table
 </pre>
 
 h3. PHP
-
 <pre>
 <code>
 <?php
@@ -81,7 +76,7 @@ h3. PHP
 </code>
 </pre>
 
-h3. HTML
+h3. AJAX
 <pre>
 <code>
 <!-- Sample 1 -->
