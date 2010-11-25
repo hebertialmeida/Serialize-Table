@@ -1,0 +1,40 @@
+body {
+	font:12px/normal arial, verdana;
+}
+table {
+	border:1px solid #C3C5C7;
+}
+thead tr {
+	background:#e6e6e6;
+	background:-webkit-gradient(linear, left top, left bottom, from(#E6E6E6), to(#D4D4D4)); /* for webkit browsers */
+	background:-moz-linear-gradient(top, #E6E6E6, #D4D4D4); /* for firefox */
+	font-size:15px;			
+}
+th {
+	padding:8px;
+	color:white;
+	color:#555555;
+	text-shadow:1px 1px 0 #F1F1F1;
+}
+tr:hover {
+	background:#f0f0f0;
+	cursor:pointer;
+}
+td {
+	padding:8px;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+li {
+	list-style:none;
+	padding:3px;
+	margin:5px 0;
+}
+label {
+	display:inline-block;
+	width:60px;
+	text-align:right;
+}
