@@ -49,7 +49,7 @@ $(document).ready(function() {
 </code>
 </pre>
 
-h4. Table
+h4. HTML
 
 <pre>
 <code>
@@ -71,6 +71,7 @@ h4. Table
 		</tr>
 	</tbody>
 </table>
+<div id="return"></div>
 </code>
 </pre>
 
