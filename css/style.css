@@ -7,12 +7,18 @@ body {
 	background:#F9F9F9;
 }
 #main {
-	margin:30px auto;
+	margin:30px auto 10px auto;
 	padding:20px 0;
-	width:930px;
+	width:900px;
 	padding:30px;
 	background:white;
 	-moz-box-shadow:0 0 3px gray;
+	-webkit-box-shadow:0 0 3px gray;
+	box-shadow:0 0 3px gray;
+}
+#footer {
+	margin:0px auto 50px auto;
+	width:960px;
 }
 table {
 	border:1px solid #999;
@@ -79,7 +85,7 @@ h3 {
 	margin:10px 0 5px 0;
 }
 p {padding:5px 0 10px 0;}
-ul.opt a {
+ul.opt a, a {
 	color:#4183C4;
 	text-decoration:none;
 }
@@ -94,7 +100,7 @@ ul.opt li {
 }
 #return {
 	float:left;
-	width:520px;
+	width:500px;
 }
 #demo {
 	float:left;

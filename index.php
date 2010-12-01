@@ -3,6 +3,8 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
 	<title>jQuery SerializeTable</title>
+	<meta content="jQuery SerializeTable is a jquery plugin that get data from table when click in row. And make into JSON all data, and can be read by PHP and return to input or to any element by AJAX." name="description">
+	<meta content="serialize table, javascript, javascript ajax, jquery" name="keywords">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.serializetable.js"></script>
 	<link rel="stylesheet" href="./css/style.css" />
@@ -13,7 +15,6 @@
 				params: "registration",
 				data: "#return",
 				loading_text: "Loading..."
-				
 			});
 		});
 	</script>
@@ -167,6 +168,9 @@ $(document).ready(function() {
 				<li><a href="https://github.com/hebertialmeida/Serialize-Table/archives/master" title="Download all files">All files in github</a></li>
 			</ul>
 		</div>
+	</div>
+	<div id="footer">
+		<a href="http://twitter.com/hebertialmeida">@hebertialmeida built this</a>
 	</div>
 </body>
 </html>
