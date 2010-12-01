@@ -5,12 +5,12 @@
 	<title>jQuery SerializeTable</title>
 	<meta content="jQuery SerializeTable is a jquery plugin that get data from table when click in row. And make into JSON all data, and can be read by PHP and return to input or to any element by AJAX." name="description">
 	<meta content="serialize table, javascript, javascript ajax, jquery" name="keywords">
+	<link rel="stylesheet" href="./css/style.css" />
 </head>
 <body>
 	<a href="https://github.com/hebertialmeida/Serialize-Table/"><img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: fixed; top: 0pt; right: 0pt; border: 0pt none;"></a>
 	<div id="main">
 		<h1>jQuery SerializeTable Example</h1>
-		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 		<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://hebertialmeida.com/plugins/serialize-table/" data-via="hebertialmeida">Tweet</a>
 
 
@@ -167,7 +167,7 @@ $(document).ready(function() {
 	<!-- js -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/jquery.serializetable.js"></script>
-	<link rel="stylesheet" href="./css/style.css" />
+	<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$("table").serializeTable({
