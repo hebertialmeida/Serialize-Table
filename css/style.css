@@ -46,6 +46,7 @@ table {
 	border-spacing:0;
 	float:left;
 }
+ul#nav {clear:both;}
 ul#nav li {
 	display:inline-block;
 	padding:10px 10px 10px 0;
@@ -75,6 +76,7 @@ input {
 h1 {
 	font-size:40px;
 	margin:10px 0 0 0;
+	float:left;
 }
 h2 {
 	font-size:18px;
@@ -123,4 +125,8 @@ hr {
 	boder:1px solid black;
 	margin:20px;
 	margin:20px;
+}
+iframe.twitter-share-button {
+	float:left;
+	margin:25px 0 0 20px;
 }
