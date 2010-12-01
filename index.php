@@ -20,7 +20,7 @@
 	</script>
 </head>
 <body>
-	<a href="https://github.com/hebertialmeida/Serialize-Table/"><img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: absolute; top: 0pt; right: 0pt; border: 0pt none;"></a>
+	<a href="https://github.com/hebertialmeida/Serialize-Table/"><img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: fixed; top: 0pt; right: 0pt; border: 0pt none;"></a>
 	<div id="main">
 		<h1>jQuery SerializeTable Example</h1>
 		<ul id="nav">
