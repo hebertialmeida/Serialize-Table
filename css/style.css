@@ -3,13 +3,16 @@
 	padding:0;
 }
 body {
-	font:12px/normal arial, verdana;
-	background:url(../images/bg.gif);
+	font:12px arial, helvetica, verdana, sans-serif;
+	background:#F9F9F9;
 }
 #main {
-	margin:0 auto;
+	margin:30px auto;
 	padding:20px 0;
-	width:960px;
+	width:930px;
+	padding:30px;
+	background:white;
+	-moz-box-shadow:0 0 3px gray;
 }
 table {
 	border:1px solid #999;
@@ -35,46 +38,79 @@ td {padding:8px;}
 table {
 	border-collapse:collapse;
 	border-spacing:0;
+	float:left;
 }
 ul#nav li {
 	display:inline-block;
 	padding:10px 10px 10px 0;
 }
 ul#nav a {
-	color:#d2eeff;
+	color:#666;
 	text-decoration:none;
-	font:bold 13px/normal arial,verdana;
+	font:bold 13px arial, helvetica, verdana, sans-serif;
 }
 ul#nav a:hover {text-decoration:underline;}
 ul#form li {
 	list-style:none;
 	padding:3px;
-	margin:5px 0;
+	margin:1px 0;
+	width:200px;
+	float:left;
 }
 label {
 	display:block;
 	width:100px;
-	color:#DDD;
 }
 input {
 	padding:3px 5px;
 	font-size:15px;
-	border:1px solid #DDD
+	border:1px solid #CCC;
 }
 h1 {
-	color:#DDD;
-	text-shadow:0 -1px 0 rgba(0, 0, 0, 0.9);
+	font-size:40px;
 	margin:10px 0 0 0;
 }
-p {
-	padding:5px 0 10px 0;
-	color:white;
+h2 {
+	font-size:18px;
+	margin:30px 0 5px 0;
 }
-code {
-	border:1px solid #999;
-	padding:20px;
-	background:white;
-	display:inline-block;
+h3 {
+	font:bold 14px arial, helvetica, verdana, sans-serif;
+	margin:10px 0 5px 0;
+}
+p {padding:5px 0 10px 0;}
+ul.opt a {
+	color:#4183C4;
+	text-decoration:none;
+}
+ul.opt a:hover {text-decoration:underline;}
+ul.opt li {
+	list-style-position:inside;
+	line-height:25px;
+}
+#documentation {
+	clear:both;
+	padding-top:1px;
+}
+#return {
+	float:left;
+	width:520px;
+}
+#demo {
+	float:left;
+	margin-right:20px;
+}
+code.small {
+	border:1px solid #CCCCCC;
+	padding:1px 2px;
+	background:#F0F0F0;
+}
+code.block {
+	border:1px solid #CCCCCC;
+	padding:10px;
+	margin:0 0 10px 0;
+	background:#F0F0F0;
+	display:block;
 	font-size:11px;
 }
 hr {

@@ -2,14 +2,11 @@
 	$json = $_REQUEST["registration"];
 	$obj = json_decode($json);
 ?>
-<h1>Fields of Table</h1>
-<p></p>
-<code>
-	JSON
-	<?php echo $json ?>
+<h2>Fields of Table</h2>
+<code class="block">
+	JSON <?php echo $json ?>
 </code>
-<hr />
-<code><?php print_r($obj) ?></code>
+<code class="block"><?php print_r($obj) ?></code>
 <form action="">
 	<ul id="form">
 		<li>
